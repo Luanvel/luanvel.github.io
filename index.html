@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeronicaRuiz || UI/UX + FrontendDev</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
+<!-- Import CSS -->
+<link rel="stylesheet" href="styles/styles.css" />
+<link rel="stylesheet" href="styles/navbar.css" />
+
+<!-- Import ICONS -->
+<script src="https://kit.fontawesome.com/55f9dea3e1.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="chibivero">
+        <nav>
+            <h2 class="logo">Lunavel<span>Art</span></h2>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#portfolio">PROJECTS</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#contact-list">CONTACT</a></li>
+            </ul>
+            <a href="garden.html" class="btn">GARDEN</a>
+        </nav>
+    </div>
+
+    <main>
+        <header class="introduction">
+            <h1>
+                Hello! I'm <em class="myname"> Veronica Ruiz</em>
+                <br />
+                <br />
+                Junior <strong class="job">UI/UX Designer</strong>
+                <br />
+                and
+                <br />
+                <strong class="job">FrontEnd</strong> Developer!
+            </h1>
+        </header>
+    </main>
+
+
+    <!-- ************ PROJECTS / PORTFOLIO  ************** -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="sub-title">Check out my <p class="job">Projects!</p>
+        </h2>
+        <div class="container">
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/cuicuirush.png" alt="cuicui rush logo, cuicuis running">
+                    <div class="layer">
+                        <h3>CuicuiRush!</h3>
+                        <p>Web Designer, illustrator and coworker in Front-End Dev. Currently starting to design the
+                            mobile application.</p>
+                        <a href="http://www.cuicuirush.com/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/softeyes.png" alt="softeyes logo">
+                    <div class="layer">
+                        <h3>SoftEyes</h3>
+                        <p>Design of the app as well as the UI/UX Application to help people with visibility impairments
+                            when visiting new homes or receiving images.</p>
+                        <a href="https://devpost.com/software/soft-eyes" target="_blank"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/lycorispath.png" alt="lycoris path characters: ren, tarkyr and grisselda">
+                    <div class="layer">
+                        <h3>Lycoris Path</h3>
+                        <p>I'm working as a designer and illustrator of this exciting visual novel, with tons of love,
+                            drama and action!</p>
+                        <a href="https://www.instagram.com/softbunsgames/" target="_blank"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ************* ABOUT ME *********** -->
+    <div id="about">
+        <div class="container">
+            <div class="aboutme">
+                <div class="about-col-1">
+                    <img id="myphoto" src="/images/foto-perfil.jpg"
+                        alt="Veronica's photo with Hindel, her adopted pogona">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Hello again! Thanks for visiting my portfolio!
+
+                        Some time ago I decided to make a turn in my life and leave my other passion, animals, to
+                        dedicate myself to the world of design and programming. This made me start my DAW studies, as
+                        well as take several courses related to programming and UI/UX design.
+
+                        I love to design, explore, and see how the web or projects take shape. There is nothing more
+                        satisfying than to see things come out well! I'm very empathetic, creative and I love working in
+                        a team! You'll usually find me thinking of new ideas for my projects and drawing.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Basic knowledge for Designing Web/App/Game Interfaces with FIGMA
+                            </li>
+                            <li><span>FrontEnd Development</span><br>CSS, HTML, Basic Javascript, Basic Java</li>
+                            <li><span>2D Artist</span><br>Character design, illustration</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Customer Service Specialist (CCB - Hill's)</span><br>2022 - Actualidad</li>
+                            <li><span>Veterinaria Voluntaria de Núcleo Zoológico (GRENP-CREAC)</span><br>2019 -
+                                Actualidad</li>
+                            <li><span>Veterinaria Generalista (Clínica Veterinaria Manescalia)</span><br>Especialidad
+                                Animales Exóticos, 2017-2022</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Web Application Development (DAW)</span><br>IOC (Institut Obert de Catalunya),
+                                2022-Currently Studying</li>
+                            <li><span>Web Development Bootcamp 2022</span><br>Academind, 2021-2022</li>
+                            <li><span>Master's Degree in Exotic Animal Medicine and Surgery</span><br>Forvetex,
+                                2017-2018</li>
+                            <li><span>Veterinary Degree (Clinical Specialization)</span><br>UAB (Universitat Autonoma de
+                                Barcelona), 2010-2015</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 id="linkedin">See my complete <i>Certifications</i> and <i>Work History</i> on <a
+                                id="linkedin-link" href="https://www.linkedin.com/in/veronicaruizab/">LinkedIn</a>.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </section>
+
+    <!-- ************  CONTACT INFO / SOCIAL MEDIA  ************ -->
+    <footer>
+        <div class="content-wrap">
+            <h2 class="sub-title" , id="keeptouch">Let's Keep in Touch!</h2>
+
+            <!-- Social media and contact links -->
+            <ul class="contact-list" id="contact-list">
+                <li><a href="mailto:veronica.ruizab@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i></a></li>
+                <li><a href="https://github.com/Luanvel" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/lunavel.art/" target="_blank"><i
+                            class="fa-brands fa-instagram fa-2x"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/veronicaruizab/" target="_blank"><i
+                            class="fa-brands fa-linkedin fa-2x"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    </main>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+</body>
+
+</html>

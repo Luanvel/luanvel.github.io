@@ -1,0 +1,124 @@
+/* COLOR SCHEME */
+
+html {
+  --color-green-1: rgb(224, 244, 225);
+  --color-green-2: rgb(161, 241, 161);
+  --color-green-3: rgb(91, 202, 108);
+
+  --color-brown-1: rgb(118, 101, 85);
+  --color-brown-2: rgb(85, 73, 62);
+  --color-brown-3: rgb(46, 39, 34);
+
+  --color-orange-1: rgb(190, 96, 29);
+  --color-orange-2: rgb(247, 192, 115);
+
+  --color-primary-bg: rgb(196, 254, 197);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+
+  --border-radius-small: 4px;
+  --border-radius-medium: 6px;
+
+  --shadow-medium: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5% 5% 0.5% 5%;
+  background-color: var(--color-brown-1);
+  transform: translateY(20%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  color: var(--color-green-1);
+  text-decoration: none;
+  font-weight: bold;
+
+  --b: 0.1em; /* the thickness of the line */
+  --c: var(--color-green-2); /* the color */
+
+  padding-block: var(--b);
+  background: linear-gradient(var(--c) 50%, #000 0) 0%
+      calc(100% - var(--_p, 0%)) / 100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p, 0%) / var(--_p, 0%) var(--b)
+      no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.3s var(--_s, 0s) linear,
+    background-size 0.3s calc(0.3s - var(--_s, 0s));
+}
+
+nav ul li a:hover {
+  color: var(--color-green-2);
+  --_p: 100%;
+  --_s: 0.3s;
+}
+
+.logo {
+  color: var(--color-green-1);
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+
+span {
+  color: var(--color-green-2);
+}
+
+.btn {
+  background-color: var(--color-green-2);
+  color: var(--color-brown-2);
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 5px 30px 5px 30px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  color: var(--color-brown-2);
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0 2rem 0;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+  }
+}
