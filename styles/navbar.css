@@ -37,9 +37,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0.5% 5% 0.5% 5%;
-  background-color: var(--color-brown-1);
+  background-color: none;
   transform: translateY(20%);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 ul {
@@ -54,12 +53,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: var(--color-green-1);
+  color: var(--color-brown-2);
   text-decoration: none;
   font-weight: bold;
 
   --b: 0.1em; /* the thickness of the line */
-  --c: var(--color-green-2); /* the color */
+  --c: var(--color-turqu-1); /* the color */
 
   padding-block: var(--b);
   background: linear-gradient(var(--c) 50%, #000 0) 0%
@@ -72,21 +71,36 @@ nav ul li a {
     background-size 0.3s calc(0.3s - var(--_s, 0s));
 }
 
-nav ul li a:hover {
-  color: var(--color-green-2);
+nav ul li a:hover, .links a:hover {
+  color: var(--color-turqu-1);
   --_p: 100%;
   --_s: 0.3s;
 }
 
 .logo {
-  color: var(--color-green-1);
+  color: var(--color-brown-2);
   font-size: 35px;
   letter-spacing: 1px;
   margin-bottom: 0px;
 }
 
+a{
+  text-decoration:none;
+  color: var(--color-brown-2);
+}
+
+a:hover{
+  text-decoration:none;
+  color: var(--color-brown-2);
+}
+
+.links a{
+  font-size: 30px;
+  margin: 25px 10px;
+}
+
 span {
-  color: var(--color-green-2);
+  color: var(--color-turqu-1);
 }
 
 .btn {
