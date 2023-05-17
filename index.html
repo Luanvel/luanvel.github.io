@@ -25,41 +25,54 @@
 </head>
 
 <body>
-    <div class="chibivero">
+    <div class="intro">
         <nav>
-            <h2 class="logo">Lunavel<span>Art</span></h2>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
+            <h2 class="logo"><a href="index.html">Lunavel<span>Art</span></a></h2>
+            <ul class="navItems">
                 <li><a href="#portfolio">PROJECTS</a></li>
                 <li><a href="#about">ABOUT ME</a></li>
-                <li><a href="#contact-list">CONTACT</a></li>
+                <li><a href="garden.html">GARDEN</a></li>
+                <li><a href="#keeptouch">CONTACT</a></li>
             </ul>
-            <a href="garden.html" class="btn">GARDEN</a>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/veronicaruizab/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.artstation.com/lunavel"><i class="fab fa-instagram"></i></a>
+            </div>
         </nav>
+
+        <div class="wrapper">
+                    <div class="cols_cols0">
+                    <span class="topLine">Hello!!</span>
+                    <div class="container">
+                        <div class="static-text">I'm a</div> 
+                        <ul class="dynamic-text">
+                            <li><span>Frontend Dev</span></li>
+                            <li><span>UI/UX Designer</span></li>
+                            <li><span>2D Artist</span></li>
+                            <li><span>Gamer</span></li>
+                        </ul>  
+                    </div>
+                    <div class="static-text2">
+                        <h2>I know!! That's a lot of things right?!</h2>
+                        <h2>Keep scrolling if you are curious!!</h2>
+                    </div>
+                    </div>
+                <div class="cols_cols1">
+                    <div class="imgbox">
+                        <img src="/images/potfoliochibi_vero.png" alt="chibi version of veronica" id="chibi">
+                    </div>
+                </div>
+        </div>
     </div>
 
-    <main>
-        <header class="introduction">
-            <h1>
-                Hello! I'm <em class="myname"> Veronica Ruiz</em>
-                <br />
-                <br />
-                Junior <strong class="job">UI/UX Designer</strong>
-                <br />
-                and
-                <br />
-                <strong class="job">FrontEnd</strong> Developer!
-            </h1>
-        </header>
-    </main>
+    
 
 
     <!-- ************ PROJECTS / PORTFOLIO  ************** -->
 
     <section class="portfolio" id="portfolio">
-        <h2 class="sub-title">Check out my <p class="job">Projects!</p>
-        </h2>
-        <div class="container">
+        <h2 class="sub-title">Check out my <div class="job">Projects!</div></h2>
+        <div class="container2">
 
             <div class="work-list">
                 <div class="work">
@@ -106,7 +119,7 @@
 
     <!-- ************* ABOUT ME *********** -->
     <div id="about">
-        <div class="container">
+        <div class="container3">
             <div class="aboutme">
                 <div class="about-col-1">
                     <img id="myphoto" src="/images/foto-perfil.jpg"
@@ -114,16 +127,16 @@
                 </div>
                 <div class="about-col-2">
                     <h2 class="sub-title">About Me</h2>
-                    <p>Welcome to my Portfolio!</p>
+                    <p>Hi again!!</p>
                     <p>Some time ago, I made a decision to pivot in my career and leave behind my other passion,
                         animals, to focus on the world of design, art, and programming. Since then, I have been studying
                         DAW and taking several courses related to programming and UI/UX design.</p>
-                    <p>Nothing excites me more than seeing ideas come to life! I am an empathetic, creative individual
-                        who loves collaborating with my teammates. You will often find me brainstorming new ways to
-                        improve my projects and sketching out my ideas.</p>
+                    <p>Nothing excites me more than seeing ideas come to life! I am an empathetic, creative and I love
+                        collaborating with my teammates. You will often find me brainstorming new ways to
+                        improve my projects and sketching out my ideas!</p>
                     <p>I believe that user experience is crucial in any digital project, and I am passionate about
                         creating innovative solutions that are both visually appealing and easy to use. I am always
-                        learning and seeking out new ways to improve my work.</p>
+                        learning and seeking out new ways to improve my work!</p>
                     <p>Thank you for visiting my portfolio, and I look forward to the opportunity to work with you!</p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -140,7 +153,7 @@
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>Lead Artist + UI/UX Designer (Kraken's Den Studios)</span><br>2022-Present</li>
+                            <li><span>Lead Artist + UI/UX Designer (Kraken's Den Studios)</span><br>2023-Present</li>
                             <li><span>Customer Service Specialist (CCB - Hill's Logistics
                                     Department)</span><br>2022-2023</li>
                             <li><span>Volunteer Veterinarian GRENP-CREAC</span><br>2019-2023</li>
@@ -192,7 +205,6 @@
         </div>
     </footer>
     </main>
-
 
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
