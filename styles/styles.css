@@ -404,6 +404,10 @@ p {
   display: block;
 }
 
+.homenav {
+  font-size: 3rem;
+}
+
 #linkedin {
   padding-top: 2rem;
   color: var(--color-turqu-1);
@@ -472,7 +476,7 @@ p {
 .layer {
   width: 100%;
   height: 0%;
-  background: linear-gradient(rgba(117, 47, 4, 0.6), #087b53);
+  background: linear-gradient(rgba(117, 47, 4, 0.75), #087b53);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -496,7 +500,7 @@ p {
   font-weight: 50px;
   margin-bottom: 20px;
   color: white;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 .layer a {
@@ -510,6 +514,10 @@ p {
   height: 60px;
   border-radius: 50%;
   text-align: center;
+}
+
+.layer p {
+  font-size: 1.5em;
 }
 
 /* ------------ CONTACT --------------- */
