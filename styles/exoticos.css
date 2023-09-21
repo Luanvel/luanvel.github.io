@@ -4,7 +4,7 @@ body {
   font-family: Roboto, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #C9B09C;
+  background-color: #c9b09c;
 }
 
 .container {
@@ -84,7 +84,7 @@ img {
 }
 
 .use-case:nth-child(even) h2 {
-  background-color:#49433E;
+  background-color: #49433e;
 }
 
 .container {

@@ -71,7 +71,8 @@ nav ul li a {
     background-size 0.3s calc(0.3s - var(--_s, 0s));
 }
 
-nav ul li a:hover, .links a:hover {
+nav ul li a:hover,
+.links a:hover {
   color: var(--color-turqu-1);
   --_p: 100%;
   --_s: 0.3s;
@@ -84,17 +85,17 @@ nav ul li a:hover, .links a:hover {
   margin-bottom: 0px;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
   color: var(--color-brown-2);
 }
 
-a:hover{
-  text-decoration:none;
+a:hover {
+  text-decoration: none;
   color: var(--color-brown-2);
 }
 
-.links a{
+.links a {
   font-size: 30px;
   margin: 25px 10px;
 }
