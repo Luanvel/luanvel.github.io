@@ -25,6 +25,7 @@ h1 {
 
 h2 {
   color: #191b18;
+  letter-spacing: 0.04em;
   font-size: 24px;
   text-align: center;
   margin-bottom: 10px;
@@ -44,6 +45,30 @@ li {
 
 img {
   border-radius: 10px;
+}
+
+a {
+  color: #076469;
+}
+
+a:hover {
+  color: #11b4bb;
+}
+
+.fa-brands {
+  color: #076469;
+}
+
+.fa-linkedin {
+  color: #076469;
+}
+
+.fa-brands:hover {
+  color: #11b4bb;
+}
+
+.fa-linkedin:hover {
+  color: #11b4bb;
 }
 
 .comment {
