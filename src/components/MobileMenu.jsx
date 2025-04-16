@@ -67,6 +67,18 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       >
         Contact
       </a>
+      <a
+        href="https://www.linkedin.com/in/veronicaruizab/"
+        target="_blank"
+        onClick={() => setMenuOpen(false)}
+        className={`text-2xl font-semibold text-cyan-300 my-4 transform transition-transform duration-300
+            ${
+              menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+            }        
+    `}
+      >
+        <i className="fa-brands fa-linkedin"></i>
+      </a>
     </div>
   );
 };

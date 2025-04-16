@@ -55,7 +55,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               className="text-cyan-300 hover:text-white transition-colors text-lg"
             >
               {" "}
-              <i class="fa-brands fa-linkedin"></i>{" "}
+              <i className="fa-brands fa-linkedin"></i>{" "}
             </a>
           </div>
         </div>
